@@ -14,6 +14,13 @@
 		D6E499F12A5559B8007F9FB0 /* ChartsPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E499F02A5559B8007F9FB0 /* ChartsPracticeTests.swift */; };
 		D6E499FB2A5559B8007F9FB0 /* ChartsPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E499FA2A5559B8007F9FB0 /* ChartsPracticeUITests.swift */; };
 		D6E499FD2A5559B8007F9FB0 /* ChartsPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E499FC2A5559B8007F9FB0 /* ChartsPracticeUITestsLaunchTests.swift */; };
+		D6E49A0A2A56C2FD007F9FB0 /* AreaMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A092A56C2FD007F9FB0 /* AreaMaskView.swift */; };
+		D6E49A0C2A56C30E007F9FB0 /* LineMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A0B2A56C30E007F9FB0 /* LineMaskView.swift */; };
+		D6E49A0E2A56C31F007F9FB0 /* PointMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A0D2A56C31F007F9FB0 /* PointMaskView.swift */; };
+		D6E49A102A56C335007F9FB0 /* RectangleMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A0F2A56C335007F9FB0 /* RectangleMaskView.swift */; };
+		D6E49A122A56C348007F9FB0 /* RuleMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A112A56C348007F9FB0 /* RuleMaskView.swift */; };
+		D6E49A142A56C357007F9FB0 /* BarMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A132A56C357007F9FB0 /* BarMaskView.swift */; };
+		D6E49A162A56C378007F9FB0 /* ScreenTimeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E49A152A56C378007F9FB0 /* ScreenTimeWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		D6E499F62A5559B8007F9FB0 /* ChartsPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E499FA2A5559B8007F9FB0 /* ChartsPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPracticeUITests.swift; sourceTree = "<group>"; };
 		D6E499FC2A5559B8007F9FB0 /* ChartsPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6E49A092A56C2FD007F9FB0 /* AreaMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMaskView.swift; sourceTree = "<group>"; };
+		D6E49A0B2A56C30E007F9FB0 /* LineMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMaskView.swift; sourceTree = "<group>"; };
+		D6E49A0D2A56C31F007F9FB0 /* PointMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMaskView.swift; sourceTree = "<group>"; };
+		D6E49A0F2A56C335007F9FB0 /* RectangleMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMaskView.swift; sourceTree = "<group>"; };
+		D6E49A112A56C348007F9FB0 /* RuleMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMaskView.swift; sourceTree = "<group>"; };
+		D6E49A132A56C357007F9FB0 /* BarMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMaskView.swift; sourceTree = "<group>"; };
+		D6E49A152A56C378007F9FB0 /* ScreenTimeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				D6E499DF2A5559B6007F9FB0 /* ChartsPracticeApp.swift */,
 				D6E499E12A5559B6007F9FB0 /* ContentView.swift */,
+				D6E49A092A56C2FD007F9FB0 /* AreaMaskView.swift */,
+				D6E49A0B2A56C30E007F9FB0 /* LineMaskView.swift */,
+				D6E49A0D2A56C31F007F9FB0 /* PointMaskView.swift */,
+				D6E49A0F2A56C335007F9FB0 /* RectangleMaskView.swift */,
+				D6E49A112A56C348007F9FB0 /* RuleMaskView.swift */,
+				D6E49A132A56C357007F9FB0 /* BarMaskView.swift */,
+				D6E49A152A56C378007F9FB0 /* ScreenTimeWidgetView.swift */,
 				D6E499E32A5559B8007F9FB0 /* Assets.xcassets */,
 				D6E499E52A5559B8007F9FB0 /* Preview Content */,
 			);
@@ -257,7 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E49A142A56C357007F9FB0 /* BarMaskView.swift in Sources */,
+				D6E49A162A56C378007F9FB0 /* ScreenTimeWidgetView.swift in Sources */,
+				D6E49A122A56C348007F9FB0 /* RuleMaskView.swift in Sources */,
+				D6E49A0E2A56C31F007F9FB0 /* PointMaskView.swift in Sources */,
+				D6E49A0C2A56C30E007F9FB0 /* LineMaskView.swift in Sources */,
+				D6E49A102A56C335007F9FB0 /* RectangleMaskView.swift in Sources */,
 				D6E499E22A5559B6007F9FB0 /* ContentView.swift in Sources */,
+				D6E49A0A2A56C2FD007F9FB0 /* AreaMaskView.swift in Sources */,
 				D6E499E02A5559B6007F9FB0 /* ChartsPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
