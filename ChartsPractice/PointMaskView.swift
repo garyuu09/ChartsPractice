@@ -41,7 +41,7 @@ struct PointMaskView: View {
             )
             .foregroundStyle(by: .value("Family", $0.family))
         }
-        .frame(height: 300)
+        .frame(width: 300, height: 200)
     }
 }
 

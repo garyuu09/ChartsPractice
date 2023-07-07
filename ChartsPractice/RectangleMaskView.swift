@@ -38,7 +38,7 @@ struct RectangleMaskView: View {
         .chartLegend(.hidden)
 //        .chartYAxis(.hidden)
         .chartYAxis { AxisMarks(preset: .aligned) }
-        .frame(height: 300)
+        .frame(width: 300, height: 200)
         .padding()
     }
 }
