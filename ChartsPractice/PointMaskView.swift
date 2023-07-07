@@ -20,9 +20,9 @@ struct Insect: Identifiable {
 
 
 private var data: [Insect] = [
-    Insect(name: "Hepialidae", family: "Lepidoptera", wingLength: 36, wingWidth: 52, weight: 22),
-    Insect(name: "Danaidae", family: "Lepidoptera", wingLength: 40, wingWidth: 48, weight: 24),
-    Insect(name: "Riodinidae", family: "Lepidoptera", wingLength: 51, wingWidth: 43, weight: 18),
+    Insect(name: "Hepialidae", family: "Lepidoptera", wingLength: 32, wingWidth: 32, weight: 22),
+    Insect(name: "Danaidae", family: "Lepidoptera", wingLength: 49, wingWidth: 40, weight: 24),
+    Insect(name: "Riodinidae", family: "Lepidoptera", wingLength: 41, wingWidth: 35, weight: 18),
     Insect(name: "Hepialidae", family: "Diptera", wingLength: 15, wingWidth: 35, weight: 22),
     Insect(name: "Danaidae", family: "Diptera", wingLength: 20, wingWidth: 25, weight: 24),
     Insect(name: "Riodinidae", family: "Diptera", wingLength: 22, wingWidth: 30, weight: 18),
