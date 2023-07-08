@@ -29,15 +29,19 @@ struct RectangleMaskView: View {
         Chart(data) {
             RectangleMark(
                 x: .value("Positive", $0.positive),
-                y: .value("Negative", $0.negative),
-                width: .ratio(1),
-                height: .ratio(1)
+                y: .value("Negative", $0.negative)
+//                width: .ratio(1),
+//                height: .ratio(1)
             )
             .foregroundStyle(by: .value("Number", $0.num))
         }
-        .chartLegend(.hidden)
-//        .chartYAxis(.hidden)
-        .chartYAxis { AxisMarks(preset: .aligned) }
+        // 凡例を非表示に設定
+//        .chartLegend(.hidden)
+
+        // Y軸のラベル位置を設定
+//        .chartYAxis {
+//            AxisMarks(preset: .aligned, position: .leading)
+//        }
         .frame(width: 300, height: 200)
         .padding()
     }
