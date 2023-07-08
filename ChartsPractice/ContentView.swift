@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            VStack(spacing: 10) {
+                AreaMaskView()
+                LineMaskView()
+                PointMaskView()
+                RectangleMaskView()
+                RuleMaskView()
+                BarMaskView()
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

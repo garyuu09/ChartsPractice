@@ -8,38 +8,37 @@
 import SwiftUI
 import Charts
 
-struct CountData: Identifiable {
+struct StatusData: Identifiable {
     let name: String
-    let count: Int
-
+    let parameter: Int
     var id: String { name }
 }
 
-let countData: [CountData] = [
-    .init(name: "りんご", count: 130),
-    .init(name: "ロボット", count: 60),
-    .init(name: "窓", count: 20),
-    .init(name: "花札", count: 75)
+let statusData: [StatusData] = [
+    .init(name: "Attack", parameter: 130),
+    .init(name: "Defense", parameter: 60),
+    .init(name: "HP", parameter: 155),
+    .init(name: "MP", parameter: 80)
 ]
 struct BarMaskView: View {
     var body: some View {
-        Chart(countData) { element in
+        Chart(statusData) { element in
             // 縦方向の棒グラフ
 //            BarMark(
-//                x: .value("Name", element.name),
-//                y: .value("Count", element.count)
+//                x: .value("Count", element.count),
+//                y: .value("Name", element.name)
 //            )
             // 横方向の棒グラフ
             // x,yのcountとnameを入れ替えるだけ。
             BarMark(
-                x: .value("Count", element.count),
+                x: .value("Status", element.parameter),
                 y: .value("Name", element.name)
             )
             .opacity(0.7) // グラフの透明化。
             .foregroundStyle(.green) // グラフの背景色指定
         }
+        .frame(width: 300, height: 200)
         .padding()
-        .frame(height: 400)
     }
 }
 

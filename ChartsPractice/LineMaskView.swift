@@ -45,7 +45,7 @@ struct LineMaskView: View {
                 y: .value("Hours of Sunshine", $0.hoursOfSunshine)
             )
         }
-        .frame(height: 300)
+        .frame(width: 300, height: 200)
         .padding()
     }
 }
