@@ -26,7 +26,6 @@ struct Food: Identifiable {
     let date: Date
     let id = UUID()
 
-
     init(name: String, price: Double, year: Int) {
         self.name = name
         self.price = price
@@ -37,14 +36,14 @@ struct Food: Identifiable {
 
 struct AreaMaskView: View {
     var body: some View {
-        Chart(cheeseburgerCost) { cost in
+        Chart(cheeseburgerCost) {
             AreaMark(
-                x: .value("Date", cost.date),
-                y: .value("Price", cost.price)
+                x: .value("Date", $0.date),
+                y: .value("Price", $0.price)
             )
         }
+        .frame(width: 300, height: 200)
         .padding()
-        .frame(height: 300)
     }
 }
 
